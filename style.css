@@ -1,0 +1,104 @@
+.top-section {
+  background-color: rgb(40, 8, 156);
+}
+.header-contiener {
+  display: flex;
+}
+.images img {
+  width: 556.01px;
+  height: 438px;
+  left: 1299.01px;
+  top: 153px;
+}
+/* transform-transtion */
+.images:hover.images {
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out;
+}
+/* box-title */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.box-title {
+  width: 485px;
+  height: 265px;
+  left: 156px;
+  top: 172px;
+  font-size: 40px;
+
+  color: #ffffff;
+}
+.limk-box {
+  width: 168px;
+  height: 44px;
+  margin-left: 156px;
+  margin-top: 464px;
+  font-size: 16px;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  text-decoration: none;
+}
+
+/* players */
+main {
+  background-color: whitesmoke;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: flex-start;
+  grid-gap: 30px;
+  padding: 15px;
+  margin-left: 30px;
+  margin-top: 27px;
+}
+.players-list {
+  width: 330px;
+  height: 474px;
+  left: 180px;
+  padding: 20pxpx;
+  top: 747px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players-img img {
+  width: 300px;
+  height: 256px;
+  margin-left: 15px;
+}
+.about-players {
+  width: 300px;
+  height: 154px;
+  padding: 15px;
+}
+.players-name {
+  font-size: 28px;
+}
+.about-players p {
+  font-size: 16px;
+}
+/* football-logo */
+.football-logo img {
+  width: 483.87px;
+  height: 110px;
+  margin-left: 475px;
+  margin-top: 148px;
+}
+/* social icons */
+.social-icons {
+  margin-left: 640px;
+  margin-right: 14px;
+}
+.copyright {
+  font-size: 20px;
+  margin-left: 620px;
+}
+/* media query */
+/* mobile divices */
+@media only screen and (max-width: 688px) {
+  .headrer-contiene,
+  .container,
+  .football-logo,
+  .footer {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
