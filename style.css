@@ -1,7 +1,7 @@
 .top-section {
   background-color: rgb(40, 8, 156);
 }
-.header-contiener {
+.headrer-contiene {
   display: flex;
 }
 .images img {
@@ -94,7 +94,10 @@ main {
 /* media query */
 /* mobile divices */
 @media only screen and (max-width: 688px) {
-  .headrer-contiene,
+  .headrer-contiene {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
   .container,
   .football-logo,
   .footer {
